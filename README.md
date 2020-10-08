@@ -169,7 +169,7 @@ Summary report @ 11:55:42(+0900) 2020-10-08
   Codes:
     0: 200
 ```
-![https://raw.githubusercontent.com/kaitas/artillery-test/pub/pub/shot1.png](testing terminal)
+![testing in terminal](https://raw.githubusercontent.com/kaitas/artillery-test/pub/pub/shot1.png)
 
 無事に全ターミナルに文字列を送ってくれたようです。
 
