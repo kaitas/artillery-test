@@ -1,9 +1,30 @@
 # artillery-test
-artillery.io を使ってみるテスト
+
+多人数接続するWebプロジェクトのテストに便利そうな [artillery.io](https://artillery.io/) を使ってみるテスト
 
 ## Artillery とは何か
 
-artillery.io の[公式ドキュメント](https://artillery.io/docs/guides/overview/why-artillery.html#What-kinds-of-services-can-I-test-with-Artillery)によると
+artillery.io の[公式ドキュメント](https://artillery.io/docs/guides/overview/why-artillery.html)によると
+
+### 概要
+
+> Artilleryは、モダンでパワフルで使いやすいパフォーマンステストツールキットです。高負荷下でもパフォーマンスと回復力を維持するスケーラブルなアプリケーションを出荷するために使用します。Artilleryは開発者の生産性と幸福を優先し、「バッテリーを含む」という哲学に従っています。
+
+よくわかりませんね！
+テストに使えることはわかりました。
+ちなみに「Artillery」は「アーティレリ」、砲台とか砲兵とかいう意味ですね。
+サーバーぶっ潰すつもりで打ち込むイメージかしら。
+
+### パフォーマンステスト」とは？
+
+> What do we mean by “performance testing”?
+> You can use Artillery to run two types of performance tests:
+> Tests that verify that a system is working as expected.
+> i.e. continuous functional tests, also known by a number of other names such as: synthetic monitoring, semantic monitoring, production scripted testing, and continuous verification.
+
+Artilleryを使って、2種類のパフォーマンステストを実行することができます。
+ひとつは、システムに負荷をかけるテスト、すなわち、負荷テスト、ストレステスト、耐久/水漏れ試験(soak test)です。
+もうひとつは、システムが期待通りに動作しているかどうかを検証するテスト、すなわち継続的な機能テスト。合成モニタリング、セマンティックモニタリング、本番スクリプトテスト、継続的な検証、エージングなど、さまざまな名称で知られています。
 
 Q: Artillery(砲兵)でどのようなサービスをテストできますか？
 Artilleryは、バックエンド・システムのテストのために設計されています。つまり、APIサービス、eコマースのバックエンド、チャットシステム、ゲームのバックエンド、データベース、メッセージのやり取りとキュー（message brokers and queues）など、ネットワーク上で通信することができるあらゆるものを対象にしています。
