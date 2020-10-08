@@ -169,10 +169,11 @@ Summary report @ 11:55:42(+0900) 2020-10-08
   Codes:
     0: 200
 ```
-![shot1.png](shot1.png)
-
+![https://raw.githubusercontent.com/kaitas/artillery-test/pub/pub/shot1.png](testing terminal)
 
 無事に全ターミナルに文字列を送ってくれたようです。
+
+フェーズ0、持続時間：20秒、経過時間：10秒、シナリオ開始～完了、平均応答/秒：10.03秒、応答時間（ミリ秒）の最小0.1、最大1.6、中央値0.1、p95,p99は統計(検定)のp値のようです。
 
 ここでconfigセクションを見直してみます。
 
